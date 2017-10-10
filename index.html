@@ -28,15 +28,15 @@
 	<a class="li" href="https://www.linkedin.com/in/jonathancphillips" title="Jon Phillips on LinkedIn"><span class="icon-linkedin"></span></a>
 </footer>
 <script>
-var showText = function (target, message, index, interval) {    
-	if (index < message.length) { 
-		$(target).append(message[index++]); 
-		setTimeout(function () { showText(target, message, index, interval); }, interval); 
-	} 
-}
-$(function () { 
-	showText("#desc", "User Interface Designer", 0, 100);    
-}); 
+	var showText = function (target, message, index, interval) {    
+		if (index < message.length) { 
+			$(target).append(message[index++]); 
+			setTimeout(function () { showText(target, message, index, interval); }, interval); 
+	    	} 
+	}
+	$(function () { 
+		showText("#desc", "User Interface Designer", 0, 100);    
+	}); 
 </script>	
 </body>
 </html>
