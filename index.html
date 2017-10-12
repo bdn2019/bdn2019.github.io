@@ -10,21 +10,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="apple-touch-icon" href="https://download.bitdefender.com/resources/images/favicon/favicon-32x32.png">
 	<link rel="Shortcut Icon" href="https://download.bitdefender.com/resources/images/favicon/favicon-32x32.png" type="image/png">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<style>
 	html, body {height: 100%;  margin: 0;}
 	div {height: 200px; width: 400px; position: fixed; top: 50%; left: 50%; margin-top: -100px; margin-left: -200px;}
 	h1 {font-family:"Helvetica"; font-weight: bold; font-style: italic; font-size: 65px; margin-bottom: 0px;}
-	p {font-family:"Courier New"; margin-top: 4px;}
 	</style>	
 </head>
 <body style="background-color:#d4d4d4;">
 </body>
 <body>
 	<div>
-		<h1>Blake Niebrugge</h1>
 		<center>
-		<p id="desc"></p>
+		<h1>Blake Niebrugge</h1>
 		<a target="_blank" href="https://mobile.twitter.com/blakeniebs" title="Blake on Twitter"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_circle_black-64.png"></a>
 		<a target="_blank" href="https://www.facebook.com/blake.niebrugge" title="Blake on Facebook"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/facebook_circle_black-64.png"</a>
 		<a target="_blank" href="https://www.instagram.com/kingniebs/" title="Blake on Instagram"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/instagram_circle_black-64.png"</a>
@@ -32,17 +29,5 @@
 		<a href="mailto:bniebs33@hotmail.com" title="Email Blake"><img src="https://cdn4.iconfinder.com/data/icons/miu/24/circle_social-email-glyph-64.png"</a>
 		</center>
 	</div>
-</body>
-<script>
-	var showText = function (target, message, index, interval) {    
-		if (index < message.length) { 
-			$(target).append(message[index++]); 
-			setTimeout(function () { showText(target, message, index, interval); }, interval); 
-	    	} 
-	}
-	$(function () { 
-		 showText("#desc", "St. Anthony High School", 0, 100)
-	}); 
-</script>	
-</body>
+</body>	
 </html>
